@@ -1,0 +1,43 @@
+{
+  "name": "cryinder",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@noble/curves": "^2.4.0",
+    "@noble/hashes": "^2.4.0",
+    "@privy-io/react-auth": "^3.45.0",
+    "@solana-mobile/wallet-adapter-mobile": "^2.3.0",
+    "@solana-program/memo": "^0.8.0",
+    "@solana/spl-token": "^0.4.15",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.95.4",
+    "@stripe/stripe-js": "^9.17.0",
+    "bs58": "^6.0.0",
+    "framer-motion": "^13.0.0",
+    "geist": "^1.7.2",
+    "lucide-react": "^1.31.0",
+    "pocketbase": "^0.27.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "@jup-ag/referral-sdk": "^0.3.0",
+    "@types/react": "^18.3.31",
+    "@vercel/node": "^5.10.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^3.4.19",
+    "typescript": "5.6",
+    "vite": "^6.4.3"
+  }
+}

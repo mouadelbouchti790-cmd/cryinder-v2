@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/api/pb/(.*)", "destination": "/api/pb" }
+  ],
+  "functions": {
+    "api/pb.js": {
+      "maxDuration": 30
+    },
+    "api/og.js": {
+      "maxDuration": 30
+    }
+  }
+}
